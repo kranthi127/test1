@@ -3,6 +3,7 @@ int add(int,int);
 int mul(int,int);
 int div(int,int);
 int mod(int,int);
+void numser();
 int main()
 {
 int a,b;
@@ -12,6 +13,8 @@ printf("%d",add(a,b));
  printf("\n%d",mul(a,b));
 printf("\n%d",div(a,b));
 printf("\n%d",mod(a,b));
+numser();
+printf("kranthi calculator");
 }
 int add(int a,int b)
 {
@@ -28,4 +31,10 @@ return (a/b);
 int mod(int a,int b)
 {
 return(a%b);
+}
+void  numser()
+{
+int i;
+for(i=0;i<101;i++)
+printf("%d " ,i);
 }
