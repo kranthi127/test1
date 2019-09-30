@@ -2,6 +2,7 @@
 int add(int,int);
 int mul(int,int);
 int div(int,int);
+int mod(int,int);
 int main()
 {
 int a,b;
@@ -10,6 +11,7 @@ scanf("%d%d",&a,&b);
 printf("%d",add(a,b));
  printf("\n%d",mul(a,b));
 printf("\n%d",div(a,b));
+printf("\n%d",mod(a,b));
 }
 int add(int a,int b)
 {
@@ -22,4 +24,8 @@ int add(int a,int b)
 int div(int a,int b)
 {
 return (a/b);
+}
+int mod(int a,int b)
+{
+return(a%b);
 }
