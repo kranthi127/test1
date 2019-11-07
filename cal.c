@@ -4,6 +4,7 @@ int mul(int,int);
 int div(int,int);
 int mod(int,int);
 void numser();
+printf("test github");
 int main()
 {
 int a,b;
