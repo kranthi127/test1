@@ -8,6 +8,7 @@ printf("test github");
 int main()
 {
 int a,b;
+ printf("hello .... welcome to c programming in github open source");
 printf("enter a,b values");
 scanf("%d%d",&a,&b);
 printf("%d",add(a,b));
